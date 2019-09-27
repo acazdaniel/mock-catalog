@@ -17,7 +17,7 @@ exports.get = (req, res, next) => {
                        };
 
         var startIndex = parseInt(index) - 1;
-        var endIndex = parseInt(index) + 1;
+        var endIndex = parseInt(index) + 10;
         response.results = _.results.slice(startIndex, endIndex);
         return response;
     }
